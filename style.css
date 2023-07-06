@@ -1,0 +1,237 @@
+body{
+  background-color: black;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.Head
+{
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://www.downtownatlanta.com/wp-content/uploads/aquarium-whale-shark.jpg");
+  background-size : cover;
+  
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.navbar{
+  width:85%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+button{
+  
+  background: transparent;
+  border:1px solid;
+  border-radius: 20%;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+.content
+{
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  color: white;
+  position: absolute;
+
+}
+h1{
+  font-size: 60px;
+  line-height: 60px;
+
+}
+.side-bar
+{
+  width:50px;
+  height:100vh;
+  background: linear-gradient(#00545d,#000729);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.menu
+{
+
+ display: block;
+  width: 25px;
+  margin: 40px auto;
+  cursor:pointer;
+
+}
+.social-links img, .useful-links img
+{
+  
+  width:25px;
+
+}
+.social-links
+{
+  width: 50px;
+  top: 50%;
+  text-align: center;
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.useful-links
+{
+  width: 50px;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  cursor: pointer;
+}
+.bubbles img
+{
+  width: 50px;
+  
+}
+
+.bubbles img
+{ 
+  width:50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0px;
+  
+  position: absolute;
+  animation: samp 8s linear infinite;
+border-radius: 30px;
+}
+
+@keyframes samp{
+  0%{
+    opacity:0;
+    transform: translateY(0);
+  }
+  
+  50%{
+    opacity:0;
+    
+  }
+  70%{
+    opacity:0;
+    
+  }
+
+  100%{
+    opacity:1;
+    transform: translateY(-80vh);
+  }
+}
+.bubbles img:nth-child(1)
+{
+  animation-delay: 1s;
+  width: 25px;
+  }
+  .bubbles img:nth-child(2)
+  {
+    animation-delay: 2s;
+ }
+
+.bubbles img:nth-child(3)
+    {
+    animation-delay: 3s;
+    
+      }
+.bubbles img:nth-child(4)
+  {
+  animation-delay: 3.5s;
+ }
+.bubbles img:nth-child(5)
+   {
+    animation-delay: 2.5;
+    width: 30px;
+  }
+ .bubbles img:nth-child(6)
+{
+  animation-delay: 6s;
+  }
+  .bubbles img:nth-child(7)
+  {
+    animation-delay: 6.5s;
+    width: 50px;
+    }
+    .bubbles img:nth-child(8)
+    {
+  animation-delay:7.9s;
+
+    }  
+  .bubbles img:nth-child(9)
+  {
+     animation-delay: 8s;
+  }
+
+  @media screen and (max-width:600px)
+  {
+    h1
+    {
+      font-size: 36px;
+      line-height: 30px;
+      color: red;
+    
+    }
+    .sidebar
+{
+  width:100%;
+  height:50px;
+  background: linear-gradient(#00545d,#000729);
+  position: absolute;
+  bottom: 0;
+  top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 10px;
+  box-sizing: border-box;
+}
+.social-links
+{
+  width: auto;
+  text-align: center;
+  transform: none;
+  position: unset;
+  cursor: pointer;
+}
+.useful-links
+{
+  width: auto;
+  position: unset;
+  cursor: pointer;
+}
+.menu
+{
+  width: 18px;
+  margin: 40px ;
+
+}
+.Head
+{
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://www.downtownatlanta.com/wp-content/uploads/aquarium-whale-shark.jpg");
+  background-size : cover;
+  
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+  }
+  /*tablet*/
+  @media screen  and (max-width:900px) and (min-width:600px)
+  {
+
+  }
+    
+  
